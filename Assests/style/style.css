@@ -561,6 +561,7 @@ p,h3,h4,h5,h6,li,a{
     text-decoration: none;
     color: #152E3A;
     font-weight: bold;
+    font-size: 22px !important;
 }
 .team_info h4 a:hover{
     color: var(--secondary) !important;
@@ -791,6 +792,7 @@ p,h3,h4,h5,h6,li,a{
     opacity: 0;
     transition: all 0.5s ease;
     visibility: hidden;
+    border-radius: 10px;
 }
 .set_testimonial:hover::before{
     opacity: 1;
