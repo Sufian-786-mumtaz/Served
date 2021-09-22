@@ -319,6 +319,11 @@ p,h3,h4,h5,h6,li,a{
     justify-content: flex-start;
     align-items: baseline;
 }
+.btn_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .about_author_info .btn_wrapper{
     margin-top: 40px;
 }
@@ -1251,9 +1256,6 @@ footer{
         }
       }
 }
-@media (max-width: 1366px){
-
-}
 @media (max-width: 1200px){
     .set_logo{
         width: 10%;
@@ -1277,6 +1279,9 @@ footer{
 }
 .full_width_carousel_caption h1{
     text-align: left !important;
+}
+.btn_wrapper{
+    justify-content: flex-start;
 }
 }
 @media (max-width:992px) {
@@ -1461,9 +1466,6 @@ footer{
     .full_width_carousel_caption{
         max-width: 540px;
     }
-    .slider_btn1{
-        margin-bottom: 20px !important;
-    }
     .nav_icon{
         font-size: 20px;
     }
@@ -1507,6 +1509,16 @@ footer{
     .full_width_carousel_caption{
         top: 48% !important;
     }
+    .btn_wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .slider_btn1{
+        margin-bottom: 20px !important;
+    }
+    .slider_btn2{
+        margin-left: 15px !important;
+    }
 }
 @media (max-width:370px){
     .about_author_info{
@@ -1519,6 +1531,9 @@ footer{
     .set_logo{
         width:22%;
     }
+    .slider_btn2{
+        margin-top: 20px;
+    }
 }
 @media (max-width:319px){
     .full_width_carousel_caption{
@@ -1527,9 +1542,9 @@ footer{
     .set_logo{
         width:23%;
     }
-    .slider_btn2{
+    /* .slider_btn2{
         margin-left: 15px !important;
-    }
+    } */
 }
 @media (max-width:293px){
     .full_width_carousel_caption{
