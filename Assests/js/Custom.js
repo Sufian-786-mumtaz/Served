@@ -2,6 +2,7 @@ window.onscroll=function(){
     myfunction()
 };
 var navbar = document.getElementById("mynavbar");
+navbar.classList.remove("sticky");
 function myfunction(){
     if(window.pageYOffset>=100){
         navbar.classList.add("sticky")
@@ -14,7 +15,7 @@ function myfunction(){
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:15,
+    margin:20,
     nav:true,
     autoplay:true,
     responsive:{
